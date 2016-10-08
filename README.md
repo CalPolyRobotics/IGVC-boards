@@ -19,4 +19,3 @@ Pro tips:
 4. Select the "IGVC-boards" directory that you cloned from git.
 
 5. Click "OK" and you should see the directory in the "Projects" list in Eagle Control Panel.
-
