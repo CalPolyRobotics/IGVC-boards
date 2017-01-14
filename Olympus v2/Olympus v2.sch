@@ -13933,24 +13933,6 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 </part>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
 <part name="JP60" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="LED7" library="led" deviceset="LED" device="CHIP-LED0603">
-<attribute name="DIGI" value="732-4966-1-ND"/>
-</part>
-<part name="R9" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="Q7" library="transistor-small-signal" deviceset="BSS123" device="" value="BSS138">
-<attribute name="DIGI" value="BSS138CT-ND"/>
-</part>
-<part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
-<part name="JP61" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="LED8" library="led" deviceset="LED" device="CHIP-LED0603">
-<attribute name="DIGI" value="732-4966-1-ND"/>
-</part>
-<part name="R10" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="Q8" library="transistor-small-signal" deviceset="BSS123" device="" value="BSS138">
-<attribute name="DIGI" value="BSS138CT-ND"/>
-</part>
-<part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
-<part name="JP62" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="L1" library="rcl" deviceset="L-US" device="L0201">
 <attribute name="DIGI" value="445-15755-1-ND"/>
 </part>
@@ -14058,8 +14040,6 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <part name="R27" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R32" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R33" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="R34" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="R35" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="U$1" library="Olympus" deviceset="NC" device=""/>
 </parts>
 <sheets>
@@ -14311,24 +14291,6 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 </instance>
 <instance part="SUPPLY24" gate="GND" x="454.66" y="190.5"/>
 <instance part="JP60" gate="G$1" x="441.96" y="200.66"/>
-<instance part="LED7" gate="G$1" x="505.46" y="226.06">
-<attribute name="DIGI" x="505.46" y="226.06" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R9" gate="G$1" x="505.46" y="238.76" rot="R90"/>
-<instance part="Q7" gate="G$1" x="505.46" y="210.82">
-<attribute name="DIGI" x="505.46" y="210.82" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="SUPPLY25" gate="GND" x="505.46" y="190.5"/>
-<instance part="JP61" gate="G$1" x="492.76" y="200.66"/>
-<instance part="LED8" gate="G$1" x="553.72" y="226.06">
-<attribute name="DIGI" x="553.72" y="226.06" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R10" gate="G$1" x="553.72" y="238.76" rot="R90"/>
-<instance part="Q8" gate="G$1" x="553.72" y="210.82">
-<attribute name="DIGI" x="553.72" y="210.82" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="SUPPLY26" gate="GND" x="553.72" y="190.5"/>
-<instance part="JP62" gate="G$1" x="541.02" y="200.66"/>
 <instance part="L1" gate="G$1" x="259.08" y="68.58" rot="R90">
 <attribute name="DIGI" x="259.08" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -14436,8 +14398,6 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <instance part="R27" gate="G$1" x="546.1" y="274.32" rot="R270"/>
 <instance part="R32" gate="G$1" x="393.7" y="200.66" rot="R270"/>
 <instance part="R33" gate="G$1" x="447.04" y="200.66" rot="R270"/>
-<instance part="R34" gate="G$1" x="497.84" y="200.66" rot="R270"/>
-<instance part="R35" gate="G$1" x="546.1" y="200.66" rot="R270"/>
 <instance part="U$1" gate="G$1" x="523.24" y="43.18"/>
 </instances>
 <busses>
@@ -15077,20 +15037,6 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <label x="355.6" y="160.02" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="OLYMPUS_GPIO7" class="0">
-<segment>
-<pinref part="JP61" gate="G$1" pin="2"/>
-<wire x1="490.22" y1="200.66" x2="464.82" y2="200.66" width="0.1524" layer="91"/>
-<label x="464.82" y="200.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="OLYMPUS_GPIO8" class="0">
-<segment>
-<pinref part="JP62" gate="G$1" pin="2"/>
-<wire x1="538.48" y1="200.66" x2="513.08" y2="200.66" width="0.1524" layer="91"/>
-<label x="513.08" y="200.66" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="MCU_VCAP_1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VCAP_1"/>
@@ -15305,24 +15251,6 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <wire x1="454.66" y1="195.58" x2="454.66" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="447.04" y1="195.58" x2="454.66" y2="195.58" width="0.1524" layer="91"/>
 <junction x="454.66" y="195.58"/>
-</segment>
-<segment>
-<pinref part="Q7" gate="G$1" pin="S"/>
-<wire x1="505.46" y1="205.74" x2="505.46" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="SUPPLY25" gate="GND" pin="GND"/>
-<pinref part="R34" gate="G$1" pin="2"/>
-<wire x1="505.46" y1="195.58" x2="505.46" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="497.84" y1="195.58" x2="505.46" y2="195.58" width="0.1524" layer="91"/>
-<junction x="505.46" y="195.58"/>
-</segment>
-<segment>
-<pinref part="Q8" gate="G$1" pin="S"/>
-<wire x1="553.72" y1="205.74" x2="553.72" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="SUPPLY26" gate="GND" pin="GND"/>
-<pinref part="R35" gate="G$1" pin="2"/>
-<wire x1="553.72" y1="195.58" x2="553.72" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="546.1" y1="195.58" x2="553.72" y2="195.58" width="0.1524" layer="91"/>
-<junction x="553.72" y="195.58"/>
 </segment>
 <segment>
 <wire x1="609.6" y1="129.54" x2="635" y2="129.54" width="0.1524" layer="91"/>
@@ -15751,18 +15679,6 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <wire x1="553.72" y1="317.5" x2="553.72" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="553.72" y1="320.04" x2="541.02" y2="320.04" width="0.1524" layer="91"/>
 <label x="541.02" y="320.04" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="553.72" y1="243.84" x2="553.72" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="553.72" y1="246.38" x2="541.02" y2="246.38" width="0.1524" layer="91"/>
-<label x="541.02" y="246.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="505.46" y1="243.84" x2="505.46" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="505.46" y1="246.38" x2="492.76" y2="246.38" width="0.1524" layer="91"/>
-<label x="492.76" y="246.38" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
@@ -16420,82 +16336,6 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="447.04" y1="205.74" x2="447.04" y2="208.28" width="0.1524" layer="91"/>
 <junction x="447.04" y="208.28"/>
-</segment>
-</net>
-<net name="LED7_A" class="0">
-<segment>
-<pinref part="LED7" gate="G$1" pin="A"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="505.46" y1="233.68" x2="505.46" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="505.46" y1="231.14" x2="505.46" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="505.46" y1="231.14" x2="492.76" y2="231.14" width="0.1524" layer="91"/>
-<junction x="505.46" y="231.14"/>
-<label x="492.76" y="231.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LED7_C" class="0">
-<segment>
-<pinref part="LED7" gate="G$1" pin="C"/>
-<wire x1="505.46" y1="220.98" x2="505.46" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="505.46" y1="218.44" x2="492.76" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="Q7" gate="G$1" pin="D"/>
-<wire x1="505.46" y1="218.44" x2="505.46" y2="215.9" width="0.1524" layer="91"/>
-<junction x="505.46" y="218.44"/>
-<label x="492.76" y="218.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LED7_G" class="0">
-<segment>
-<pinref part="Q7" gate="G$1" pin="G"/>
-<wire x1="500.38" y1="208.28" x2="497.84" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="JP61" gate="G$1" pin="1"/>
-<wire x1="497.84" y1="208.28" x2="485.14" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="485.14" y1="208.28" x2="472.44" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="490.22" y1="203.2" x2="485.14" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="485.14" y1="203.2" x2="485.14" y2="208.28" width="0.1524" layer="91"/>
-<junction x="485.14" y="208.28"/>
-<label x="472.44" y="208.28" size="1.778" layer="95"/>
-<pinref part="R34" gate="G$1" pin="1"/>
-<wire x1="497.84" y1="205.74" x2="497.84" y2="208.28" width="0.1524" layer="91"/>
-<junction x="497.84" y="208.28"/>
-</segment>
-</net>
-<net name="LED8_A" class="0">
-<segment>
-<pinref part="LED8" gate="G$1" pin="A"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="553.72" y1="233.68" x2="553.72" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="553.72" y1="231.14" x2="553.72" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="553.72" y1="231.14" x2="541.02" y2="231.14" width="0.1524" layer="91"/>
-<junction x="553.72" y="231.14"/>
-<label x="541.02" y="231.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LED8_C" class="0">
-<segment>
-<pinref part="LED8" gate="G$1" pin="C"/>
-<wire x1="553.72" y1="220.98" x2="553.72" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="553.72" y1="218.44" x2="541.02" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="Q8" gate="G$1" pin="D"/>
-<wire x1="553.72" y1="218.44" x2="553.72" y2="215.9" width="0.1524" layer="91"/>
-<junction x="553.72" y="218.44"/>
-<label x="541.02" y="218.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LED8_G" class="0">
-<segment>
-<pinref part="Q8" gate="G$1" pin="G"/>
-<wire x1="548.64" y1="208.28" x2="546.1" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="JP62" gate="G$1" pin="1"/>
-<wire x1="546.1" y1="208.28" x2="533.4" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="533.4" y1="208.28" x2="520.7" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="538.48" y1="203.2" x2="533.4" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="533.4" y1="203.2" x2="533.4" y2="208.28" width="0.1524" layer="91"/>
-<junction x="533.4" y="208.28"/>
-<label x="520.7" y="208.28" size="1.778" layer="95"/>
-<pinref part="R35" gate="G$1" pin="1"/>
-<wire x1="546.1" y1="205.74" x2="546.1" y2="208.28" width="0.1524" layer="91"/>
-<junction x="546.1" y="208.28"/>
 </segment>
 </net>
 <net name="JTAG_TDI" class="0">
