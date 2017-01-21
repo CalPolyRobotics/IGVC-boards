@@ -481,9 +481,6 @@ TS-003</description>
 <rectangle x1="0.381" y1="1.9558" x2="0.889" y2="3.0988" layer="51"/>
 <rectangle x1="-0.889" y1="1.9558" x2="-0.381" y2="3.0988" layer="51"/>
 <rectangle x1="-2.159" y1="1.9558" x2="-1.651" y2="3.0988" layer="51"/>
-<dimension x1="-2.2" y1="-4.6" x2="-1.6" y2="-4.6" x3="-1.9" y3="-4.6" textsize="1.27" layer="21" dtype="horizontal"/>
-<dimension x1="-2" y1="-5.2" x2="-0.6" y2="-5.4" x3="-1.3" y3="-6" textsize="1.27" layer="21" dtype="horizontal"/>
-<dimension x1="-5.6" y1="4" x2="-5.6" y2="-4" x3="-6.8" y3="0" textsize="1.27" layer="21" dtype="horizontal"/>
 </package>
 <package name="MSOP8">
 <wire x1="-1.23" y1="0.94" x2="1.57" y2="0.94" width="0.2032" layer="21"/>
@@ -573,36 +570,34 @@ TS-003</description>
 </packages>
 <symbols>
 <symbol name="A4957">
-<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-25.4" x2="-10.16" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-25.4" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<pin name="VREG" x="15.24" y="10.16" length="middle" rot="R180"/>
-<pin name="SA" x="15.24" y="7.62" length="middle" rot="R180"/>
-<pin name="SB" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="GLA" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="GHA" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<pin name="GLB" x="15.24" y="-10.16" length="middle" rot="R180"/>
-<pin name="GHB" x="15.24" y="-12.7" length="middle" rot="R180"/>
-<pin name="TDEAD" x="-15.24" y="-20.32" length="middle"/>
-<pin name="AGND" x="-15.24" y="-22.86" length="middle"/>
-<pin name="GND_1" x="15.24" y="-17.78" length="middle" rot="R180"/>
-<pin name="GND_2" x="15.24" y="-20.32" length="middle" rot="R180"/>
-<pin name="GND_3" x="15.24" y="-22.86" length="middle" rot="R180"/>
-<pin name="CP1" x="-15.24" y="10.16" length="middle"/>
-<pin name="CP2" x="-15.24" y="7.62" length="middle"/>
-<pin name="RESET" x="-15.24" y="5.08" length="middle"/>
-<pin name="BLO" x="-15.24" y="0" length="middle"/>
-<pin name="BHI" x="-15.24" y="-2.54" length="middle"/>
-<pin name="ALO" x="-15.24" y="-5.08" length="middle"/>
-<pin name="AHI" x="-15.24" y="-7.62" length="middle"/>
-<pin name="VBB" x="-15.24" y="-12.7" length="middle"/>
-<pin name="VDD" x="-15.24" y="-15.24" length="middle"/>
-<pin name="FAULT" x="-15.24" y="-17.78" length="middle"/>
-<pin name="CA" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="CB" x="15.24" y="0" length="middle" rot="R180"/>
-<text x="-5.08" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-5.08" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="-7.62" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-30.48" x2="-7.62" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-30.48" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="VREG" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="SA" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="SB" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="GLA" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="GHA" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="GLB" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="GHB" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="TDEAD" x="-12.7" y="-25.4" length="middle"/>
+<pin name="AGND" x="-12.7" y="-27.94" length="middle"/>
+<pin name="GND_1" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="GND_2" x="17.78" y="-25.4" length="middle" rot="R180"/>
+<pin name="GND_3" x="17.78" y="-27.94" length="middle" rot="R180"/>
+<pin name="CP1" x="-12.7" y="5.08" length="middle"/>
+<pin name="CP2" x="-12.7" y="2.54" length="middle"/>
+<pin name="RESET" x="-12.7" y="0" length="middle"/>
+<pin name="BLO" x="-12.7" y="-5.08" length="middle"/>
+<pin name="BHI" x="-12.7" y="-7.62" length="middle"/>
+<pin name="ALO" x="-12.7" y="-10.16" length="middle"/>
+<pin name="AHI" x="-12.7" y="-12.7" length="middle"/>
+<pin name="VBB" x="-12.7" y="-17.78" length="middle"/>
+<pin name="VDD" x="-12.7" y="-20.32" length="middle"/>
+<pin name="FAULT" x="-12.7" y="-22.86" length="middle"/>
+<pin name="CA" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="CB" x="17.78" y="-5.08" length="middle" rot="R180"/>
 </symbol>
 <symbol name="NMOS">
 <wire x1="-2.54" y1="0" x2="-1.2192" y2="0" width="0.1524" layer="94"/>
@@ -635,8 +630,7 @@ TS-003</description>
 <pin name="IP_P2" x="-17.78" y="0" length="middle"/>
 <pin name="IP_N1" x="-17.78" y="-5.08" length="middle"/>
 <pin name="IP_N2" x="-17.78" y="-7.62" length="middle"/>
-<text x="-2.54" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-12.7" size="1.27" layer="95">ACS712</text>
 </symbol>
 <symbol name="MCP3426">
 <wire x1="-10.16" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
@@ -702,18 +696,21 @@ TS-003</description>
 <vertex x="1.524" y="-0.762"/>
 </polygon>
 </symbol>
-<symbol name="MCP6L01">
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<pin name="S" x="-7.62" y="5.08" length="middle"/>
-<pin name="T" x="-7.62" y="2.54" length="short"/>
-<pin name="U" x="-7.62" y="0" length="short"/>
-<pin name="V" x="7.62" y="5.08" length="short" rot="R180"/>
-<pin name="W" x="7.62" y="0" length="short" rot="R180"/>
-<text x="-5.08" y="7.62" size="1.27" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
+<symbol name="MCP6L02">
+<wire x1="-10.16" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<text x="-7.62" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="VOUTA" x="-12.7" y="-2.54" length="short"/>
+<pin name="VINA-" x="-12.7" y="-5.08" length="short"/>
+<pin name="VINA+" x="-12.7" y="-7.62" length="short"/>
+<pin name="VSS" x="-12.7" y="-10.16" length="short"/>
+<pin name="VDD" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="VOUTB" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="VINB-" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="VINB+" x="12.7" y="-10.16" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -851,18 +848,21 @@ TS-003</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP6L01">
+<deviceset name="MCP6L02">
 <gates>
-<gate name="G$1" symbol="MCP6L01" x="0" y="-2.54"/>
+<gate name="G$1" symbol="MCP6L02" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SO-08">
 <connects>
-<connect gate="G$1" pin="S" pad="1"/>
-<connect gate="G$1" pin="T" pad="2"/>
-<connect gate="G$1" pin="U" pad="3"/>
-<connect gate="G$1" pin="V" pad="4"/>
-<connect gate="G$1" pin="W" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VINA+" pad="2"/>
+<connect gate="G$1" pin="VINA-" pad="3"/>
+<connect gate="G$1" pin="VINB+" pad="4"/>
+<connect gate="G$1" pin="VINB-" pad="5"/>
+<connect gate="G$1" pin="VOUTA" pad="6"/>
+<connect gate="G$1" pin="VOUTB" pad="7"/>
+<connect gate="G$1" pin="VSS" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6774,10 +6774,19 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <part name="SUPPLY31" library="CP-Symbols" deviceset="GND" device=""/>
 <part name="R8" library="resistor" deviceset="R-US_" device="R2512" value="5k"/>
 <part name="R9" library="resistor" deviceset="R-US_" device="R2512" value="5k"/>
-<part name="R10" library="resistor" deviceset="R-US_" device="R2512" value="5k"/>
-<part name="R11" library="resistor" deviceset="R-US_" device="R2512" value="5k"/>
-<part name="U$6" library="heph_custom_comp" deviceset="MCP6L01" device=""/>
-<part name="U$22" library="heph_custom_comp" deviceset="MCP6L01" device=""/>
+<part name="SUPPLY17" library="CP-Symbols" deviceset="GND" device=""/>
+<part name="SUPPLY19" library="CP-Symbols" deviceset="GND" device=""/>
+<part name="U$6" library="heph_custom_comp" deviceset="MCP6L02" device=""/>
+<part name="R12" library="resistor" deviceset="R-US_" device="R2512" value="5k"/>
+<part name="R13" library="resistor" deviceset="R-US_" device="R2512" value="5k"/>
+<part name="SUPPLY20" library="CP-Symbols" deviceset="GND" device=""/>
+<part name="SUPPLY21" library="CP-Symbols" deviceset="GND" device=""/>
+<part name="U$22" library="CP-Symbols" deviceset="PP5V" device=""/>
+<part name="SUPPLY22" library="CP-Symbols" deviceset="GND" device=""/>
+<part name="SUPPLY23" library="CP-Symbols" deviceset="GND" device=""/>
+<part name="U$23" library="CP-Symbols" deviceset="PP5V" device=""/>
+<part name="SUPPLY28" library="CP-Symbols" deviceset="GND" device=""/>
+<part name="C4" library="eagle-ltspice" deviceset="C" device="C0603" value="4.7 uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -6791,12 +6800,12 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <text x="-58.42" y="-45.72" size="5.08" layer="94">Boards to Brakes Motor Conn</text>
 <text x="73.66" y="76.2" size="5.08" layer="94">Steering H-Bridge</text>
 <text x="-17.78" y="60.96" size="1.778" layer="95">SMAZ12</text>
-<text x="292.1" y="58.42" size="5.08" layer="94">Steering Curent Sensor</text>
-<text x="104.14" y="132.08" size="1.016" layer="91">for r6 between 
+<text x="287.02" y="104.14" size="5.08" layer="94">Steering Curent Sensor</text>
+<text x="187.96" y="137.16" size="1.016" layer="91">for r6 between 
 3, 240 kOhms, tdead
  ~ 50 + 7200 / (1.2 + (200 / rdead))</text>
-<text x="294.64" y="5.08" size="5.08" layer="94">Braking Current Sensor</text>
-<text x="292.1" y="157.48" size="5.08" layer="94">Steering / Braking ADC</text>
+<text x="287.02" y="50.8" size="5.08" layer="94">Braking Current Sensor</text>
+<text x="279.4" y="152.4" size="5.08" layer="94">Steering / Braking ADC</text>
 <text x="81.28" y="20.32" size="7.62" layer="90">UPDATE BRAKING H-BRIDGE</text>
 <text x="99.06" y="5.08" size="5.08" layer="94">Braking H-Bridge</text>
 </plain>
@@ -6808,7 +6817,7 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <instance part="SUPPLY11" gate="G$1" x="-43.18" y="172.72"/>
 <instance part="SV3" gate="G$1" x="-58.42" y="111.76" rot="MR180"/>
 <instance part="SUPPLY18" gate="G$1" x="-38.1" y="109.22"/>
-<instance part="U$1" gate="G$1" x="154.94" y="162.56" rot="MR0"/>
+<instance part="U$1" gate="G$1" x="157.48" y="167.64" rot="MR0"/>
 <instance part="U$3" gate="G$1" x="-53.34" y="182.88"/>
 <instance part="C1" gate="G$1" x="190.5" y="180.34"/>
 <instance part="SUPPLY1" gate="G$1" x="132.08" y="139.7"/>
@@ -6841,32 +6850,32 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <instance part="R3" gate="G$1" x="116.84" y="147.32" rot="R270"/>
 <instance part="R4" gate="G$1" x="119.38" y="144.78" rot="R270"/>
 <instance part="SUPPLY9" gate="G$1" x="60.96" y="116.84"/>
-<instance part="U$12" gate="G$1" x="220.98" y="180.34" rot="MR0"/>
-<instance part="SUPPLY10" gate="G$1" x="220.98" y="165.1"/>
-<instance part="C6" gate="G$1" x="220.98" y="170.18" rot="R180"/>
+<instance part="U$12" gate="G$1" x="218.44" y="180.34" rot="MR0"/>
+<instance part="SUPPLY10" gate="G$1" x="218.44" y="165.1"/>
+<instance part="C6" gate="G$1" x="218.44" y="170.18" rot="R180"/>
 <instance part="U$11" gate="G$1" x="-17.78" y="172.72" rot="MR0"/>
-<instance part="ACS712" gate="G$1" x="322.58" y="83.82"/>
-<instance part="SUPPLY13" gate="G$1" x="355.6" y="78.74"/>
-<instance part="C7" gate="G$1" x="363.22" y="81.28" rot="R180"/>
-<instance part="C8" gate="G$1" x="375.92" y="93.98" rot="R180"/>
-<instance part="U$19" gate="G$1" x="375.92" y="104.14" rot="MR0"/>
-<instance part="SUPPLY14" gate="G$1" x="375.92" y="88.9"/>
-<instance part="U$20" gate="G$1" x="350.52" y="93.98" rot="MR0"/>
-<instance part="SUPPLY15" gate="G$1" x="266.7" y="88.9"/>
+<instance part="ACS712" gate="G$1" x="325.12" y="127"/>
+<instance part="SUPPLY13" gate="G$1" x="358.14" y="121.92"/>
+<instance part="C7" gate="G$1" x="365.76" y="124.46" rot="R180"/>
+<instance part="C8" gate="G$1" x="378.46" y="137.16" rot="R180"/>
+<instance part="U$19" gate="G$1" x="378.46" y="147.32" rot="MR0"/>
+<instance part="SUPPLY14" gate="G$1" x="378.46" y="132.08"/>
+<instance part="U$20" gate="G$1" x="353.06" y="137.16" rot="MR0"/>
+<instance part="SUPPLY15" gate="G$1" x="259.08" y="132.08"/>
 <instance part="IC1" gate="G$1" x="124.46" y="111.76" rot="R180"/>
 <instance part="R5" gate="G$1" x="198.12" y="175.26" rot="R90"/>
 <instance part="R7" gate="G$1" x="-25.4" y="48.26" rot="R270"/>
 <instance part="D5" gate="G$1" x="-20.32" y="60.96" rot="R90"/>
 <instance part="C9" gate="G$1" x="20.32" y="154.94"/>
 <instance part="C3" gate="G$1" x="93.98" y="154.94"/>
-<instance part="ACS1" gate="G$1" x="322.58" y="33.02"/>
-<instance part="SUPPLY25" gate="G$1" x="355.6" y="27.94"/>
-<instance part="C13" gate="G$1" x="363.22" y="30.48" rot="R180"/>
-<instance part="C14" gate="G$1" x="375.92" y="43.18" rot="R180"/>
-<instance part="U$29" gate="G$1" x="375.92" y="53.34" rot="MR0"/>
-<instance part="SUPPLY26" gate="G$1" x="375.92" y="38.1"/>
-<instance part="U$30" gate="G$1" x="350.52" y="43.18" rot="MR0"/>
-<instance part="SUPPLY27" gate="G$1" x="271.78" y="38.1"/>
+<instance part="ACS1" gate="G$1" x="325.12" y="76.2"/>
+<instance part="SUPPLY25" gate="G$1" x="358.14" y="71.12"/>
+<instance part="C13" gate="G$1" x="365.76" y="73.66" rot="R180"/>
+<instance part="C14" gate="G$1" x="378.46" y="86.36" rot="R180"/>
+<instance part="U$29" gate="G$1" x="378.46" y="96.52" rot="MR0"/>
+<instance part="SUPPLY26" gate="G$1" x="378.46" y="81.28"/>
+<instance part="U$30" gate="G$1" x="353.06" y="86.36" rot="MR0"/>
+<instance part="SUPPLY27" gate="G$1" x="261.62" y="81.28"/>
 <instance part="U$32" gate="G$1" x="198.12" y="185.42" rot="MR0"/>
 <instance part="IC1" gate="P" x="124.46" y="111.76"/>
 <instance part="U$33" gate="G$1" x="124.46" y="124.46" rot="MR0"/>
@@ -6876,21 +6885,30 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <instance part="U$15" gate="G$1" x="-17.78" y="180.34" rot="MR0"/>
 <instance part="U$16" gate="G$1" x="-17.78" y="182.88" rot="MR0"/>
 <instance part="U$17" gate="G$1" x="-17.78" y="170.18" rot="MR0"/>
-<instance part="U$35" gate="G$1" x="330.2" y="180.34"/>
-<instance part="SUPPLY30" gate="G$1" x="363.22" y="175.26"/>
-<instance part="SUPPLY24" gate="G$1" x="365.76" y="177.8"/>
-<instance part="U$18" gate="G$1" x="294.64" y="177.8" rot="MR0"/>
-<instance part="SUPPLY12" gate="G$1" x="299.72" y="180.34"/>
+<instance part="U$35" gate="G$1" x="332.74" y="180.34"/>
+<instance part="SUPPLY30" gate="G$1" x="365.76" y="175.26"/>
+<instance part="SUPPLY24" gate="G$1" x="368.3" y="177.8"/>
+<instance part="U$18" gate="G$1" x="297.18" y="177.8" rot="MR0"/>
+<instance part="SUPPLY12" gate="G$1" x="302.26" y="180.34"/>
 <instance part="IC3" gate="G$1" x="172.72" y="111.76" rot="R180"/>
 <instance part="IC3" gate="P" x="172.72" y="111.76"/>
 <instance part="U$21" gate="G$1" x="172.72" y="124.46" rot="MR0"/>
 <instance part="SUPPLY31" gate="G$1" x="172.72" y="101.6"/>
-<instance part="R8" gate="G$1" x="281.94" y="91.44" rot="R90"/>
-<instance part="R9" gate="G$1" x="279.4" y="106.68" rot="R90"/>
-<instance part="R10" gate="G$1" x="287.02" y="50.8" rot="R90"/>
-<instance part="R11" gate="G$1" x="274.32" y="53.34" rot="R90"/>
-<instance part="U$6" gate="G$1" x="292.1" y="104.14"/>
-<instance part="U$22" gate="G$1" x="297.18" y="48.26"/>
+<instance part="R8" gate="G$1" x="297.18" y="134.62" rot="R180"/>
+<instance part="R9" gate="G$1" x="281.94" y="134.62" rot="R180"/>
+<instance part="SUPPLY17" gate="G$1" x="274.32" y="134.62"/>
+<instance part="SUPPLY19" gate="G$1" x="266.7" y="83.82"/>
+<instance part="U$6" gate="G$1" x="264.16" y="180.34"/>
+<instance part="R12" gate="G$1" x="297.18" y="83.82" rot="R180"/>
+<instance part="R13" gate="G$1" x="281.94" y="83.82" rot="R180"/>
+<instance part="SUPPLY20" gate="G$1" x="274.32" y="83.82"/>
+<instance part="SUPPLY21" gate="G$1" x="236.22" y="175.26"/>
+<instance part="U$22" gate="G$1" x="279.4" y="180.34"/>
+<instance part="SUPPLY22" gate="G$1" x="248.92" y="170.18"/>
+<instance part="SUPPLY23" gate="G$1" x="292.1" y="172.72"/>
+<instance part="U$23" gate="G$1" x="381" y="185.42" rot="MR0"/>
+<instance part="SUPPLY28" gate="G$1" x="381" y="170.18"/>
+<instance part="C4" gate="G$1" x="381" y="175.26" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -6965,21 +6983,21 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="SUPPLY10" gate="G$1" pin="GND"/>
-<wire x1="220.98" y1="167.64" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="167.64" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="SUPPLY13" gate="G$1" pin="GND"/>
-<wire x1="363.22" y1="78.74" x2="355.6" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="355.6" y1="78.74" x2="355.6" y2="81.28" width="0.1524" layer="91"/>
-<junction x="355.6" y="78.74"/>
+<wire x1="365.76" y1="121.92" x2="358.14" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="121.92" x2="358.14" y2="124.46" width="0.1524" layer="91"/>
+<junction x="358.14" y="121.92"/>
 <pinref part="ACS712" gate="G$1" pin="GND"/>
-<wire x1="355.6" y1="81.28" x2="347.98" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="124.46" x2="350.52" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="SUPPLY14" gate="G$1" pin="GND"/>
-<wire x1="375.92" y1="91.44" x2="375.92" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="134.62" x2="378.46" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="AGND"/>
@@ -7004,16 +7022,16 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="SUPPLY25" gate="G$1" pin="GND"/>
-<wire x1="363.22" y1="27.94" x2="355.6" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="355.6" y1="27.94" x2="355.6" y2="30.48" width="0.1524" layer="91"/>
-<junction x="355.6" y="27.94"/>
+<wire x1="365.76" y1="71.12" x2="358.14" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="71.12" x2="358.14" y2="73.66" width="0.1524" layer="91"/>
+<junction x="358.14" y="71.12"/>
 <pinref part="ACS1" gate="G$1" pin="GND"/>
-<wire x1="355.6" y1="30.48" x2="347.98" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="73.66" x2="350.52" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
 <pinref part="SUPPLY26" gate="G$1" pin="GND"/>
-<wire x1="375.92" y1="40.64" x2="375.92" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="83.82" x2="378.46" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="P" pin="GND"/>
@@ -7023,24 +7041,54 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <segment>
 <pinref part="U$35" gate="G$1" pin="VSS"/>
 <pinref part="SUPPLY30" gate="G$1" pin="GND"/>
-<wire x1="342.9" y1="175.26" x2="363.22" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="175.26" x2="365.76" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$35" gate="G$1" pin="CH2-"/>
 <pinref part="SUPPLY24" gate="G$1" pin="GND"/>
-<wire x1="342.9" y1="177.8" x2="365.76" y2="177.8" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$35" gate="G$1" pin="CH1-"/>
-<wire x1="317.5" y1="177.8" x2="302.26" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="177.8" x2="302.26" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="SUPPLY12" gate="G$1" pin="GND"/>
-<wire x1="302.26" y1="180.34" x2="299.72" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="177.8" x2="368.3" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="P" pin="GND"/>
 <pinref part="SUPPLY31" gate="G$1" pin="GND"/>
 <wire x1="172.72" y1="104.14" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="SUPPLY17" gate="G$1" pin="GND"/>
+<wire x1="276.86" y1="134.62" x2="274.32" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="SUPPLY20" gate="G$1" pin="GND"/>
+<wire x1="276.86" y1="83.82" x2="274.32" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="VSS"/>
+<pinref part="SUPPLY22" gate="G$1" pin="GND"/>
+<wire x1="251.46" y1="170.18" x2="248.92" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="VINA-"/>
+<pinref part="SUPPLY21" gate="G$1" pin="GND"/>
+<wire x1="251.46" y1="175.26" x2="236.22" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="VINB-"/>
+<pinref part="SUPPLY23" gate="G$1" pin="GND"/>
+<wire x1="276.86" y1="172.72" x2="292.1" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$35" gate="G$1" pin="CH1-"/>
+<wire x1="320.04" y1="177.8" x2="304.8" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="177.8" x2="304.8" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="SUPPLY12" gate="G$1" pin="GND"/>
+<wire x1="304.8" y1="180.34" x2="302.26" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="SUPPLY28" gate="G$1" pin="GND"/>
+<wire x1="381" y1="172.72" x2="381" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
@@ -7051,8 +7099,8 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 </segment>
 <segment>
 <pinref part="U$35" gate="G$1" pin="SCL"/>
-<wire x1="342.9" y1="172.72" x2="347.98" y2="172.72" width="0.1524" layer="91"/>
-<label x="347.98" y="172.72" size="1.016" layer="95" xref="yes"/>
+<wire x1="345.44" y1="172.72" x2="350.52" y2="172.72" width="0.1524" layer="91"/>
+<label x="350.52" y="172.72" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PP12V_2" class="0">
@@ -7075,12 +7123,12 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <segment>
 <pinref part="SUPPLY15" gate="G$1" pin="PP12V_2"/>
 <pinref part="ACS712" gate="G$1" pin="IP_P1"/>
-<wire x1="266.7" y1="86.36" x2="302.26" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="86.36" x2="304.8" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="86.36" x2="302.26" y2="83.82" width="0.1524" layer="91"/>
-<junction x="302.26" y="86.36"/>
+<wire x1="259.08" y1="129.54" x2="304.8" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="129.54" x2="307.34" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="129.54" x2="304.8" y2="127" width="0.1524" layer="91"/>
+<junction x="304.8" y="129.54"/>
 <pinref part="ACS712" gate="G$1" pin="IP_P2"/>
-<wire x1="302.26" y1="83.82" x2="304.8" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="127" x2="307.34" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="PP12V_2"/>
@@ -7101,12 +7149,12 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <segment>
 <pinref part="SUPPLY27" gate="G$1" pin="PP12V_2"/>
 <pinref part="ACS1" gate="G$1" pin="IP_P1"/>
-<wire x1="271.78" y1="35.56" x2="302.26" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="35.56" x2="304.8" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="35.56" x2="302.26" y2="33.02" width="0.1524" layer="91"/>
-<junction x="302.26" y="35.56"/>
+<wire x1="261.62" y1="78.74" x2="304.8" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="78.74" x2="307.34" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="78.74" x2="304.8" y2="76.2" width="0.1524" layer="91"/>
+<junction x="304.8" y="78.74"/>
 <pinref part="ACS1" gate="G$1" pin="IP_P2"/>
-<wire x1="302.26" y1="33.02" x2="304.8" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="76.2" x2="307.34" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PP5V" class="0">
@@ -7118,17 +7166,17 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <segment>
 <pinref part="U$12" gate="G$1" pin="PP5V"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="177.8" x2="220.98" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="177.8" x2="218.44" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$20" gate="G$1" pin="PP5V"/>
 <pinref part="ACS712" gate="G$1" pin="VCC"/>
-<wire x1="350.52" y1="91.44" x2="347.98" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="134.62" x2="350.52" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$19" gate="G$1" pin="PP5V"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="375.92" y1="101.6" x2="375.92" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="144.78" x2="378.46" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="PP5V"/>
@@ -7143,12 +7191,12 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <segment>
 <pinref part="U$30" gate="G$1" pin="PP5V"/>
 <pinref part="ACS1" gate="G$1" pin="VCC"/>
-<wire x1="350.52" y1="40.64" x2="347.98" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="83.82" x2="350.52" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$29" gate="G$1" pin="PP5V"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="375.92" y1="50.8" x2="375.92" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="93.98" x2="378.46" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -7163,12 +7211,22 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <segment>
 <pinref part="U$35" gate="G$1" pin="VDD"/>
 <pinref part="U$18" gate="G$1" pin="PP5V"/>
-<wire x1="317.5" y1="175.26" x2="294.64" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="175.26" x2="297.18" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="P" pin="VCC"/>
 <pinref part="U$21" gate="G$1" pin="PP5V"/>
 <wire x1="172.72" y1="119.38" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="PP5V"/>
+<pinref part="U$6" gate="G$1" pin="VDD"/>
+<wire x1="279.4" y1="177.8" x2="276.86" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$23" gate="G$1" pin="PP5V"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="381" y1="182.88" x2="381" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MCU_FAULT_S" class="0">
@@ -7319,13 +7377,13 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 </segment>
 <segment>
 <pinref part="ACS712" gate="G$1" pin="IP_N1"/>
-<wire x1="304.8" y1="78.74" x2="299.72" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="121.92" x2="302.26" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="ACS712" gate="G$1" pin="IP_N2"/>
-<wire x1="299.72" y1="78.74" x2="287.02" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="76.2" x2="299.72" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="76.2" x2="299.72" y2="78.74" width="0.1524" layer="91"/>
-<junction x="299.72" y="78.74"/>
-<label x="287.02" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="302.26" y1="121.92" x2="289.56" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="119.38" x2="302.26" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="119.38" x2="302.26" y2="121.92" width="0.1524" layer="91"/>
+<junction x="302.26" y="121.92"/>
+<label x="289.56" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CA_S" class="0">
@@ -7394,7 +7452,7 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <segment>
 <pinref part="ACS712" gate="G$1" pin="FILTER"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="347.98" y1="86.36" x2="363.22" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="129.54" x2="365.76" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -7471,19 +7529,19 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <segment>
 <pinref part="ACS1" gate="G$1" pin="FILTER"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="347.98" y1="35.56" x2="363.22" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="78.74" x2="365.76" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CUR_SENSE_B" class="0">
 <segment>
 <pinref part="ACS1" gate="G$1" pin="IP_N1"/>
-<wire x1="304.8" y1="27.94" x2="299.72" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="71.12" x2="302.26" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="ACS1" gate="G$1" pin="IP_N2"/>
-<wire x1="299.72" y1="27.94" x2="287.02" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="25.4" x2="299.72" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="25.4" x2="299.72" y2="27.94" width="0.1524" layer="91"/>
-<junction x="299.72" y="27.94"/>
-<label x="287.02" y="27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="302.26" y1="71.12" x2="289.56" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="68.58" x2="302.26" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="68.58" x2="302.26" y2="71.12" width="0.1524" layer="91"/>
+<junction x="302.26" y="71.12"/>
+<label x="289.56" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GHA_S" class="0">
@@ -7547,8 +7605,8 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <net name="I2C_SDA" class="0">
 <segment>
 <pinref part="U$35" gate="G$1" pin="SDA"/>
-<wire x1="317.5" y1="172.72" x2="312.42" y2="172.72" width="0.1524" layer="91"/>
-<label x="312.42" y="172.72" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="320.04" y1="172.72" x2="314.96" y2="172.72" width="0.1524" layer="91"/>
+<label x="314.96" y="172.72" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="5"/>
@@ -7559,25 +7617,15 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <net name="CS_1" class="0">
 <segment>
 <pinref part="ACS712" gate="G$1" pin="VIOUT"/>
-<wire x1="304.8" y1="91.44" x2="302.26" y2="91.44" width="0.1524" layer="91"/>
-<label x="302.26" y="91.44" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$35" gate="G$1" pin="CH1+"/>
-<wire x1="317.5" y1="180.34" x2="314.96" y2="180.34" width="0.1524" layer="91"/>
-<label x="314.96" y="180.34" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="134.62" x2="302.26" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS_2" class="0">
 <segment>
-<pinref part="U$35" gate="G$1" pin="CH2+"/>
-<wire x1="342.9" y1="180.34" x2="345.44" y2="180.34" width="0.1524" layer="91"/>
-<label x="345.44" y="180.34" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="ACS1" gate="G$1" pin="VIOUT"/>
-<wire x1="304.8" y1="40.64" x2="302.26" y2="40.64" width="0.1524" layer="91"/>
-<label x="302.26" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="83.82" x2="302.26" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MCU_DIR_S_INV" class="0">
@@ -7602,6 +7650,58 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <pinref part="U$1" gate="G$1" pin="BHI"/>
 <wire x1="170.18" y1="160.02" x2="177.8" y2="160.02" width="0.1524" layer="91"/>
 <label x="177.8" y="160.02" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="S_BUFF" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="292.1" y1="134.62" x2="289.56" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="134.62" x2="287.02" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="134.62" x2="289.56" y2="139.7" width="0.1524" layer="91"/>
+<junction x="289.56" y="134.62"/>
+<label x="289.56" y="139.7" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="VINA+"/>
+<wire x1="251.46" y1="172.72" x2="248.92" y2="172.72" width="0.1524" layer="91"/>
+<label x="246.38" y="172.72" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="VOUTA"/>
+<wire x1="248.92" y1="172.72" x2="246.38" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="177.8" x2="248.92" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="177.8" x2="248.92" y2="172.72" width="0.1524" layer="91"/>
+<junction x="248.92" y="172.72"/>
+</segment>
+<segment>
+<pinref part="U$35" gate="G$1" pin="CH1+"/>
+<wire x1="320.04" y1="180.34" x2="317.5" y2="180.34" width="0.1524" layer="91"/>
+<label x="317.5" y="180.34" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="B_BUFF" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="292.1" y1="83.82" x2="289.56" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="83.82" x2="287.02" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="83.82" x2="289.56" y2="88.9" width="0.1524" layer="91"/>
+<junction x="289.56" y="83.82"/>
+<label x="289.56" y="88.9" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="VINB+"/>
+<wire x1="276.86" y1="170.18" x2="279.4" y2="170.18" width="0.1524" layer="91"/>
+<label x="281.94" y="170.18" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="VOUTB"/>
+<wire x1="279.4" y1="170.18" x2="281.94" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="175.26" x2="279.4" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="175.26" x2="279.4" y2="170.18" width="0.1524" layer="91"/>
+<junction x="279.4" y="170.18"/>
+</segment>
+<segment>
+<pinref part="U$35" gate="G$1" pin="CH2+"/>
+<wire x1="345.44" y1="180.34" x2="347.98" y2="180.34" width="0.1524" layer="91"/>
+<label x="347.98" y="180.34" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
