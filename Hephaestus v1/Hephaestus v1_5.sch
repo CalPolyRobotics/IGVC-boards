@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -6775,7 +6775,6 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <part name="R8" library="resistor" deviceset="R-US_" device="R2512" value="5k"/>
 <part name="R9" library="resistor" deviceset="R-US_" device="R2512" value="5k"/>
 <part name="SUPPLY17" library="CP-Symbols" deviceset="GND" device=""/>
-<part name="SUPPLY19" library="CP-Symbols" deviceset="GND" device=""/>
 <part name="U$6" library="heph_custom_comp" deviceset="MCP6L02" device=""/>
 <part name="R12" library="resistor" deviceset="R-US_" device="R2512" value="5k"/>
 <part name="R13" library="resistor" deviceset="R-US_" device="R2512" value="5k"/>
@@ -6792,7 +6791,7 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <sheet>
 <plain>
 <frame x1="-73.66" y1="-58.42" x2="416.56" y2="195.58" columns="8" rows="5" layer="91"/>
-<text x="-59.69" y="148.59" size="5.08" layer="94">Board To Board</text>
+<text x="-57.15" y="143.51" size="5.08" layer="94">Board To Board</text>
 <text x="-49.276" y="85.09" size="5.08" layer="94">Board To Cart</text>
 <text x="-83.82" y="195.58" size="1.778" layer="91">Is the 12V line allocated from the cart or from Olympus, and/or should there we a "Board-To-Cart at all, with that being considered?"</text>
 <text x="-60.96" y="27.94" size="5.08" layer="94">Reverse Polarity Circuitry</text>
@@ -6810,15 +6809,15 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <text x="99.06" y="5.08" size="5.08" layer="94">Braking H-Bridge</text>
 </plain>
 <instances>
-<instance part="SV1" gate="1" x="-66.04" y="170.18" rot="MR180"/>
-<instance part="SV2" gate="1" x="-2.54" y="170.18" rot="MR0"/>
-<instance part="U$2" gate="G$1" x="-43.18" y="177.8"/>
-<instance part="U$4" gate="G$1" x="-48.26" y="180.34"/>
-<instance part="SUPPLY11" gate="G$1" x="-43.18" y="172.72"/>
+<instance part="SV1" gate="1" x="-63.5" y="165.1" rot="MR180"/>
+<instance part="SV2" gate="1" x="0" y="165.1" rot="MR0"/>
+<instance part="U$2" gate="G$1" x="-40.64" y="172.72"/>
+<instance part="U$4" gate="G$1" x="-45.72" y="175.26"/>
+<instance part="SUPPLY11" gate="G$1" x="-40.64" y="167.64"/>
 <instance part="SV3" gate="G$1" x="-58.42" y="111.76" rot="MR180"/>
 <instance part="SUPPLY18" gate="G$1" x="-38.1" y="109.22"/>
 <instance part="U$1" gate="G$1" x="157.48" y="167.64" rot="MR0"/>
-<instance part="U$3" gate="G$1" x="-53.34" y="182.88"/>
+<instance part="U$3" gate="G$1" x="-50.8" y="177.8"/>
 <instance part="C1" gate="G$1" x="190.5" y="180.34"/>
 <instance part="SUPPLY1" gate="G$1" x="132.08" y="139.7"/>
 <instance part="SUPPLY2" gate="G$1" x="182.88" y="129.54"/>
@@ -6853,7 +6852,7 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <instance part="U$12" gate="G$1" x="218.44" y="180.34" rot="MR0"/>
 <instance part="SUPPLY10" gate="G$1" x="218.44" y="165.1"/>
 <instance part="C6" gate="G$1" x="218.44" y="170.18" rot="R180"/>
-<instance part="U$11" gate="G$1" x="-17.78" y="172.72" rot="MR0"/>
+<instance part="U$11" gate="G$1" x="-15.24" y="167.64" rot="MR0"/>
 <instance part="ACS712" gate="G$1" x="325.12" y="127"/>
 <instance part="SUPPLY13" gate="G$1" x="358.14" y="121.92"/>
 <instance part="C7" gate="G$1" x="365.76" y="124.46" rot="R180"/>
@@ -6880,11 +6879,11 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <instance part="IC1" gate="P" x="124.46" y="111.76"/>
 <instance part="U$33" gate="G$1" x="124.46" y="124.46" rot="MR0"/>
 <instance part="SUPPLY16" gate="G$1" x="124.46" y="101.6"/>
-<instance part="U$13" gate="G$1" x="-17.78" y="175.26" rot="MR0"/>
-<instance part="U$14" gate="G$1" x="-17.78" y="177.8" rot="MR0"/>
-<instance part="U$15" gate="G$1" x="-17.78" y="180.34" rot="MR0"/>
-<instance part="U$16" gate="G$1" x="-17.78" y="182.88" rot="MR0"/>
-<instance part="U$17" gate="G$1" x="-17.78" y="170.18" rot="MR0"/>
+<instance part="U$13" gate="G$1" x="-15.24" y="170.18" rot="MR0"/>
+<instance part="U$14" gate="G$1" x="-15.24" y="172.72" rot="MR0"/>
+<instance part="U$15" gate="G$1" x="-15.24" y="175.26" rot="MR0"/>
+<instance part="U$16" gate="G$1" x="-15.24" y="177.8" rot="MR0"/>
+<instance part="U$17" gate="G$1" x="-15.24" y="165.1" rot="MR0"/>
 <instance part="U$35" gate="G$1" x="332.74" y="180.34"/>
 <instance part="SUPPLY30" gate="G$1" x="365.76" y="175.26"/>
 <instance part="SUPPLY24" gate="G$1" x="368.3" y="177.8"/>
@@ -6897,7 +6896,6 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <instance part="R8" gate="G$1" x="297.18" y="134.62" rot="R180"/>
 <instance part="R9" gate="G$1" x="281.94" y="134.62" rot="R180"/>
 <instance part="SUPPLY17" gate="G$1" x="274.32" y="134.62"/>
-<instance part="SUPPLY19" gate="G$1" x="266.7" y="83.82"/>
 <instance part="U$6" gate="G$1" x="264.16" y="180.34"/>
 <instance part="R12" gate="G$1" x="297.18" y="83.82" rot="R180"/>
 <instance part="R13" gate="G$1" x="281.94" y="83.82" rot="R180"/>
@@ -6921,8 +6919,8 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <net name="MCU_PWM_S" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="8"/>
-<wire x1="-55.88" y1="162.56" x2="-58.42" y2="162.56" width="0.1524" layer="91"/>
-<label x="-45.72" y="162.56" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="-53.34" y1="157.48" x2="-55.88" y2="157.48" width="0.1524" layer="91"/>
+<label x="-43.18" y="157.48" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="I"/>
@@ -7017,7 +7015,7 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <segment>
 <pinref part="SUPPLY11" gate="G$1" pin="GND"/>
 <pinref part="SV1" gate="1" pin="4"/>
-<wire x1="-43.18" y1="172.72" x2="-58.42" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="167.64" x2="-55.88" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>
@@ -7094,8 +7092,8 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <net name="I2C_SCL" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="6"/>
-<wire x1="-55.88" y1="167.64" x2="-58.42" y2="167.64" width="0.1524" layer="91"/>
-<label x="-55.88" y="167.64" size="1.016" layer="95" xref="yes"/>
+<wire x1="-53.34" y1="162.56" x2="-55.88" y2="162.56" width="0.1524" layer="91"/>
+<label x="-53.34" y="162.56" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$35" gate="G$1" pin="SCL"/>
@@ -7181,12 +7179,12 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <segment>
 <pinref part="U$3" gate="G$1" pin="PP5V"/>
 <pinref part="SV1" gate="1" pin="1"/>
-<wire x1="-53.34" y1="180.34" x2="-58.42" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="175.26" x2="-55.88" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="PP5V"/>
 <pinref part="SV1" gate="1" pin="2"/>
-<wire x1="-48.26" y1="177.8" x2="-58.42" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="172.72" x2="-55.88" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$30" gate="G$1" pin="PP5V"/>
@@ -7232,8 +7230,8 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <net name="MCU_FAULT_S" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="10"/>
-<wire x1="-55.88" y1="157.48" x2="-58.42" y2="157.48" width="0.1524" layer="91"/>
-<label x="-55.88" y="157.48" size="1.016" layer="95" xref="yes"/>
+<wire x1="-53.34" y1="152.4" x2="-55.88" y2="152.4" width="0.1524" layer="91"/>
+<label x="-53.34" y="152.4" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="FAULT"/>
@@ -7256,8 +7254,8 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <net name="MCU_DIR_S" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="7"/>
-<wire x1="-55.88" y1="165.1" x2="-58.42" y2="165.1" width="0.1524" layer="91"/>
-<label x="-45.72" y="165.1" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="-53.34" y1="160.02" x2="-55.88" y2="160.02" width="0.1524" layer="91"/>
+<label x="-43.18" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="BLO"/>
@@ -7273,36 +7271,36 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <net name="MCU_GPIO_S" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="9"/>
-<wire x1="-55.88" y1="160.02" x2="-58.42" y2="160.02" width="0.1524" layer="91"/>
-<label x="-45.72" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="-53.34" y1="154.94" x2="-55.88" y2="154.94" width="0.1524" layer="91"/>
+<label x="-43.18" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MCU_DIR_B" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="4"/>
-<wire x1="-17.78" y1="167.64" x2="-10.16" y2="167.64" width="0.1524" layer="91"/>
-<label x="-27.94" y="167.64" size="1.016" layer="95" xref="yes"/>
+<wire x1="-15.24" y1="162.56" x2="-7.62" y2="162.56" width="0.1524" layer="91"/>
+<label x="-25.4" y="162.56" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MCU_PWM_B" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="3"/>
-<wire x1="-17.78" y1="165.1" x2="-10.16" y2="165.1" width="0.1524" layer="91"/>
-<label x="-27.94" y="165.1" size="1.016" layer="95" xref="yes"/>
+<wire x1="-15.24" y1="160.02" x2="-7.62" y2="160.02" width="0.1524" layer="91"/>
+<label x="-25.4" y="160.02" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MCU_GPIO_B" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="2"/>
-<wire x1="-17.78" y1="162.56" x2="-10.16" y2="162.56" width="0.1524" layer="91"/>
-<label x="-27.94" y="162.56" size="1.016" layer="95" xref="yes"/>
+<wire x1="-15.24" y1="157.48" x2="-7.62" y2="157.48" width="0.1524" layer="91"/>
+<label x="-25.4" y="157.48" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MCU_FAULT_B" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="1"/>
-<wire x1="-17.78" y1="160.02" x2="-10.16" y2="160.02" width="0.1524" layer="91"/>
-<label x="-17.78" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="-15.24" y1="154.94" x2="-7.62" y2="154.94" width="0.1524" layer="91"/>
+<label x="-15.24" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR_S+" class="0">
@@ -7522,7 +7520,7 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PP3V3"/>
 <pinref part="SV1" gate="1" pin="3"/>
-<wire x1="-43.18" y1="175.26" x2="-58.42" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="170.18" x2="-55.88" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -7569,37 +7567,37 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="5"/>
-<wire x1="-17.78" y1="170.18" x2="-10.16" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="165.1" x2="-7.62" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="6"/>
-<wire x1="-10.16" y1="172.72" x2="-17.78" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="167.64" x2="-15.24" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="7"/>
-<wire x1="-17.78" y1="175.26" x2="-10.16" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="170.18" x2="-7.62" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="8"/>
-<wire x1="-10.16" y1="177.8" x2="-17.78" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="172.72" x2="-15.24" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="9"/>
-<wire x1="-17.78" y1="180.34" x2="-10.16" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="175.26" x2="-7.62" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="10"/>
-<wire x1="-17.78" y1="182.88" x2="-10.16" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="177.8" x2="-7.62" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
@@ -7610,8 +7608,8 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="5"/>
-<wire x1="-58.42" y1="170.18" x2="-55.88" y2="170.18" width="0.1524" layer="91"/>
-<label x="-55.88" y="170.18" size="1.016" layer="95" xref="yes"/>
+<wire x1="-55.88" y1="165.1" x2="-53.34" y2="165.1" width="0.1524" layer="91"/>
+<label x="-53.34" y="165.1" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CS_1" class="0">
