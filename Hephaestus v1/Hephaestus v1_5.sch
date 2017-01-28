@@ -381,30 +381,31 @@ W = angled&lt;p&gt;
 <library name="heph_custom_comp">
 <packages>
 <package name="24-WFQFN">
-<smd name="P$1" x="-5.08" y="2.54" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$2" x="-3.81" y="2.54" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$3" x="-2.54" y="2.54" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$4" x="-1.27" y="2.54" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$5" x="0" y="2.54" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$6" x="1.27" y="2.54" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$7" x="2.54" y="1.27" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$8" x="2.54" y="0" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$9" x="2.54" y="-1.27" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$10" x="2.54" y="-2.54" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$11" x="2.54" y="-3.81" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$12" x="2.54" y="-5.08" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$13" x="1.27" y="-6.35" dx="1.27" dy="0.635" layer="1" rot="R270"/>
-<smd name="P$14" x="0" y="-6.35" dx="1.27" dy="0.635" layer="1" rot="R270"/>
-<smd name="P$15" x="-1.27" y="-6.35" dx="1.27" dy="0.635" layer="1" rot="R270"/>
-<smd name="P$16" x="-2.54" y="-6.35" dx="1.27" dy="0.635" layer="1" rot="R270"/>
-<smd name="P$17" x="-3.81" y="-6.35" dx="1.27" dy="0.635" layer="1" rot="R270"/>
-<smd name="P$18" x="-5.08" y="-6.35" dx="1.27" dy="0.635" layer="1" rot="R270"/>
-<smd name="P$19" x="-6.35" y="-5.08" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$20" x="-6.35" y="-3.81" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$21" x="-6.35" y="-2.54" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$22" x="-6.35" y="-1.27" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$23" x="-6.35" y="0" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$24" x="-6.35" y="1.27" dx="1.27" dy="0.635" layer="1"/>
+<smd name="1" x="-2.05" y="1.25" dx="0.95" dy="0.3" layer="1"/>
+<smd name="25" x="0" y="0" dx="2.7" dy="2.7" layer="1"/>
+<smd name="2" x="-2.05" y="0.75" dx="0.95" dy="0.3" layer="1"/>
+<smd name="3" x="-2.05" y="0.25" dx="0.95" dy="0.3" layer="1"/>
+<smd name="4" x="-2.05" y="-0.25" dx="0.95" dy="0.3" layer="1"/>
+<smd name="5" x="-2.05" y="-0.75" dx="0.95" dy="0.3" layer="1"/>
+<smd name="6" x="-2.05" y="-1.25" dx="0.95" dy="0.3" layer="1"/>
+<smd name="7" x="-1.25" y="-2.05" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-0.75" y="-2.05" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="-0.25" y="-2.05" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="0.25" y="-2.05" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="0.75" y="-2.05" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="1.25" y="-2.05" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="2.05" y="-1.25" dx="0.95" dy="0.3" layer="1" rot="R180"/>
+<smd name="14" x="2.05" y="-0.75" dx="0.95" dy="0.3" layer="1" rot="R180"/>
+<smd name="15" x="2.05" y="-0.25" dx="0.95" dy="0.3" layer="1" rot="R180"/>
+<smd name="16" x="2.05" y="0.25" dx="0.95" dy="0.3" layer="1" rot="R180"/>
+<smd name="17" x="2.05" y="0.75" dx="0.95" dy="0.3" layer="1" rot="R180"/>
+<smd name="18" x="2.05" y="1.25" dx="0.95" dy="0.3" layer="1" rot="R180"/>
+<smd name="19" x="1.25" y="2.05" dx="0.95" dy="0.3" layer="1" rot="R270"/>
+<smd name="20" x="0.75" y="2.05" dx="0.95" dy="0.3" layer="1" rot="R270"/>
+<smd name="21" x="0.25" y="2.05" dx="0.95" dy="0.3" layer="1" rot="R270"/>
+<smd name="22" x="-0.25" y="2.05" dx="0.95" dy="0.3" layer="1" rot="R270"/>
+<smd name="23" x="-0.75" y="2.05" dx="0.95" dy="0.3" layer="1" rot="R270"/>
+<smd name="24" x="-1.25" y="2.05" dx="0.95" dy="0.3" layer="1" rot="R270"/>
 </package>
 <package name="TO252">
 <description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
@@ -571,9 +572,9 @@ TS-003</description>
 <symbols>
 <symbol name="A4957">
 <wire x1="-7.62" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="12.7" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-30.48" x2="-7.62" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-30.48" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-33.02" x2="-7.62" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-33.02" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
 <pin name="VREG" x="17.78" y="5.08" length="middle" rot="R180"/>
 <pin name="SA" x="17.78" y="2.54" length="middle" rot="R180"/>
 <pin name="SB" x="17.78" y="0" length="middle" rot="R180"/>
@@ -598,6 +599,9 @@ TS-003</description>
 <pin name="FAULT" x="-12.7" y="-22.86" length="middle"/>
 <pin name="CA" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="CB" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<text x="-5.08" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<pin name="THERM_GND" x="17.78" y="-30.48" length="middle" rot="R180"/>
 </symbol>
 <symbol name="NMOS">
 <wire x1="-2.54" y1="0" x2="-1.2192" y2="0" width="0.1524" layer="94"/>
@@ -721,30 +725,31 @@ TS-003</description>
 <devices>
 <device name="" package="24-WFQFN">
 <connects>
-<connect gate="G$1" pin="AGND" pad="P$12"/>
-<connect gate="G$1" pin="AHI" pad="P$14"/>
-<connect gate="G$1" pin="ALO" pad="P$15"/>
-<connect gate="G$1" pin="BHI" pad="P$16"/>
-<connect gate="G$1" pin="BLO" pad="P$17"/>
-<connect gate="G$1" pin="CA" pad="P$2"/>
-<connect gate="G$1" pin="CB" pad="P$4"/>
-<connect gate="G$1" pin="CP1" pad="P$20"/>
-<connect gate="G$1" pin="CP2" pad="P$21"/>
-<connect gate="G$1" pin="FAULT" pad="P$10"/>
-<connect gate="G$1" pin="GHA" pad="P$1"/>
-<connect gate="G$1" pin="GHB" pad="P$5"/>
-<connect gate="G$1" pin="GLA" pad="P$23"/>
-<connect gate="G$1" pin="GLB" pad="P$7"/>
-<connect gate="G$1" pin="GND_1" pad="P$8"/>
-<connect gate="G$1" pin="GND_2" pad="P$18"/>
-<connect gate="G$1" pin="GND_3" pad="P$19"/>
-<connect gate="G$1" pin="RESET" pad="P$9"/>
-<connect gate="G$1" pin="SA" pad="P$24"/>
-<connect gate="G$1" pin="SB" pad="P$6"/>
-<connect gate="G$1" pin="TDEAD" pad="P$11"/>
-<connect gate="G$1" pin="VBB" pad="P$22"/>
-<connect gate="G$1" pin="VDD" pad="P$13"/>
-<connect gate="G$1" pin="VREG" pad="P$3"/>
+<connect gate="G$1" pin="AGND" pad="13"/>
+<connect gate="G$1" pin="AHI" pad="11"/>
+<connect gate="G$1" pin="ALO" pad="10"/>
+<connect gate="G$1" pin="BHI" pad="9"/>
+<connect gate="G$1" pin="BLO" pad="8"/>
+<connect gate="G$1" pin="CA" pad="23"/>
+<connect gate="G$1" pin="CB" pad="21"/>
+<connect gate="G$1" pin="CP1" pad="5"/>
+<connect gate="G$1" pin="CP2" pad="4"/>
+<connect gate="G$1" pin="FAULT" pad="15"/>
+<connect gate="G$1" pin="GHA" pad="24"/>
+<connect gate="G$1" pin="GHB" pad="20"/>
+<connect gate="G$1" pin="GLA" pad="2"/>
+<connect gate="G$1" pin="GLB" pad="18"/>
+<connect gate="G$1" pin="GND_1" pad="6"/>
+<connect gate="G$1" pin="GND_2" pad="7"/>
+<connect gate="G$1" pin="GND_3" pad="17"/>
+<connect gate="G$1" pin="RESET" pad="16"/>
+<connect gate="G$1" pin="SA" pad="1"/>
+<connect gate="G$1" pin="SB" pad="19"/>
+<connect gate="G$1" pin="TDEAD" pad="14"/>
+<connect gate="G$1" pin="THERM_GND" pad="25"/>
+<connect gate="G$1" pin="VBB" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="12"/>
+<connect gate="G$1" pin="VREG" pad="22"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -855,14 +860,14 @@ TS-003</description>
 <devices>
 <device name="" package="SO-08">
 <connects>
-<connect gate="G$1" pin="VDD" pad="1"/>
-<connect gate="G$1" pin="VINA+" pad="2"/>
-<connect gate="G$1" pin="VINA-" pad="3"/>
-<connect gate="G$1" pin="VINB+" pad="4"/>
-<connect gate="G$1" pin="VINB-" pad="5"/>
-<connect gate="G$1" pin="VOUTA" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VINA+" pad="3"/>
+<connect gate="G$1" pin="VINA-" pad="2"/>
+<connect gate="G$1" pin="VINB+" pad="5"/>
+<connect gate="G$1" pin="VINB-" pad="6"/>
+<connect gate="G$1" pin="VOUTA" pad="1"/>
 <connect gate="G$1" pin="VOUTB" pad="7"/>
-<connect gate="G$1" pin="VSS" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6699,7 +6704,9 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <part name="SUPPLY11" library="CP-Symbols" deviceset="GND" device=""/>
 <part name="SV3" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="SUPPLY18" library="CP-Symbols" deviceset="GND" device=""/>
-<part name="U$1" library="heph_custom_comp" deviceset="A4957" device=""/>
+<part name="U$1" library="heph_custom_comp" deviceset="A4957" device="">
+<attribute name="DIGI" value="620-1491-1-ND"/>
+</part>
 <part name="U$3" library="CP-Symbols" deviceset="PP5V" device="" value="PP12V"/>
 <part name="C1" library="eagle-ltspice" deviceset="C" device="C0603" value="470 nF"/>
 <part name="SUPPLY1" library="CP-Symbols" deviceset="GND" device=""/>
@@ -6719,7 +6726,7 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <part name="D2" library="heph_custom_comp" deviceset="PMEG6020ETR" device="" value="PMEG6020ETR"/>
 <part name="D3" library="heph_custom_comp" deviceset="PMEG6020ETR" device="" value="PMEG6020ETR"/>
 <part name="D4" library="heph_custom_comp" deviceset="PMEG6020ETR" device="" value="PMEG6020ETR"/>
-<part name="C2" library="eagle-ltspice" deviceset="C" device="C0603" value="20 uF"/>
+<part name="C2" library="eagle-ltspice" deviceset="C" device="C0603" value="22 uF"/>
 <part name="SUPPLY6" library="CP-Symbols" deviceset="GND" device=""/>
 <part name="CART_VOLT_RVP1" library="CP-Symbols" deviceset="PP12V_2" device="" value="PP12V_BAT_RP"/>
 <part name="C5" library="eagle-ltspice" deviceset="C" device="C0603" value="4.7 uF"/>
@@ -6744,7 +6751,7 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <part name="SUPPLY15" library="CP-Symbols" deviceset="PP12V_2" device="" value="PP12V_BAT_RP"/>
 <part name="IC1" library="74xx-little-de" deviceset="NC7SZ14" device="P5X"/>
 <part name="R5" library="resistor" deviceset="R-US_" device="R2512" value="33k"/>
-<part name="R7" library="resistor" deviceset="R-US_" device="R2512" value="10000"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="R2512" value="10k"/>
 <part name="D5" library="diode" deviceset="DIODE-" device="DO-214AC" value="12V"/>
 <part name="C9" library="eagle-ltspice" deviceset="C" device="C0603" value="1 uF"/>
 <part name="C3" library="eagle-ltspice" deviceset="C" device="C0603" value="1 uF"/>
@@ -6764,7 +6771,9 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <part name="U$15" library="NC" deviceset="NC" device=""/>
 <part name="U$16" library="NC" deviceset="NC" device=""/>
 <part name="U$17" library="NC" deviceset="NC" device=""/>
-<part name="U$35" library="heph_custom_comp" deviceset="MCP3246" device=""/>
+<part name="U$35" library="heph_custom_comp" deviceset="MCP3246" device="">
+<attribute name="DIG" value=" MCP3426A0-E/SN-ND "/>
+</part>
 <part name="SUPPLY30" library="CP-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="CP-Symbols" deviceset="GND" device=""/>
 <part name="U$18" library="CP-Symbols" deviceset="PP5V" device=""/>
@@ -6779,10 +6788,8 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <part name="R12" library="resistor" deviceset="R-US_" device="R2512" value="5k"/>
 <part name="R13" library="resistor" deviceset="R-US_" device="R2512" value="5k"/>
 <part name="SUPPLY20" library="CP-Symbols" deviceset="GND" device=""/>
-<part name="SUPPLY21" library="CP-Symbols" deviceset="GND" device=""/>
 <part name="U$22" library="CP-Symbols" deviceset="PP5V" device=""/>
 <part name="SUPPLY22" library="CP-Symbols" deviceset="GND" device=""/>
-<part name="SUPPLY23" library="CP-Symbols" deviceset="GND" device=""/>
 <part name="U$23" library="CP-Symbols" deviceset="PP5V" device=""/>
 <part name="SUPPLY28" library="CP-Symbols" deviceset="GND" device=""/>
 <part name="C4" library="eagle-ltspice" deviceset="C" device="C0603" value="4.7 uF"/>
@@ -6816,7 +6823,9 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <instance part="SUPPLY11" gate="G$1" x="-40.64" y="167.64"/>
 <instance part="SV3" gate="G$1" x="-58.42" y="111.76" rot="MR180"/>
 <instance part="SUPPLY18" gate="G$1" x="-38.1" y="109.22"/>
-<instance part="U$1" gate="G$1" x="157.48" y="167.64" rot="MR0"/>
+<instance part="U$1" gate="G$1" x="157.48" y="167.64" rot="MR0">
+<attribute name="DIGI" x="157.48" y="167.64" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="U$3" gate="G$1" x="-50.8" y="177.8"/>
 <instance part="C1" gate="G$1" x="190.5" y="180.34"/>
 <instance part="SUPPLY1" gate="G$1" x="132.08" y="139.7"/>
@@ -6844,10 +6853,10 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <instance part="C5" gate="G$1" x="208.28" y="175.26" rot="R180"/>
 <instance part="SUPPLY7" gate="G$1" x="208.28" y="170.18"/>
 <instance part="SUPPLY8" gate="G$1" x="-43.18" y="121.92"/>
-<instance part="R1" gate="G$1" x="111.76" y="152.4" rot="R270"/>
+<instance part="R1" gate="G$1" x="106.68" y="152.4" rot="R270"/>
 <instance part="R2" gate="G$1" x="114.3" y="149.86" rot="R270"/>
-<instance part="R3" gate="G$1" x="116.84" y="147.32" rot="R270"/>
-<instance part="R4" gate="G$1" x="119.38" y="144.78" rot="R270"/>
+<instance part="R3" gate="G$1" x="119.38" y="144.78" rot="R270"/>
+<instance part="R4" gate="G$1" x="124.46" y="139.7" rot="R270"/>
 <instance part="SUPPLY9" gate="G$1" x="60.96" y="116.84"/>
 <instance part="U$12" gate="G$1" x="218.44" y="180.34" rot="MR0"/>
 <instance part="SUPPLY10" gate="G$1" x="218.44" y="165.1"/>
@@ -6884,7 +6893,9 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <instance part="U$15" gate="G$1" x="-15.24" y="175.26" rot="MR0"/>
 <instance part="U$16" gate="G$1" x="-15.24" y="177.8" rot="MR0"/>
 <instance part="U$17" gate="G$1" x="-15.24" y="165.1" rot="MR0"/>
-<instance part="U$35" gate="G$1" x="332.74" y="180.34"/>
+<instance part="U$35" gate="G$1" x="332.74" y="180.34">
+<attribute name="DIG" x="332.74" y="180.34" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY30" gate="G$1" x="365.76" y="175.26"/>
 <instance part="SUPPLY24" gate="G$1" x="368.3" y="177.8"/>
 <instance part="U$18" gate="G$1" x="297.18" y="177.8" rot="MR0"/>
@@ -6900,10 +6911,8 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <instance part="R12" gate="G$1" x="297.18" y="83.82" rot="R180"/>
 <instance part="R13" gate="G$1" x="281.94" y="83.82" rot="R180"/>
 <instance part="SUPPLY20" gate="G$1" x="274.32" y="83.82"/>
-<instance part="SUPPLY21" gate="G$1" x="236.22" y="175.26"/>
 <instance part="U$22" gate="G$1" x="279.4" y="180.34"/>
 <instance part="SUPPLY22" gate="G$1" x="248.92" y="170.18"/>
-<instance part="SUPPLY23" gate="G$1" x="292.1" y="172.72"/>
 <instance part="U$23" gate="G$1" x="381" y="185.42" rot="MR0"/>
 <instance part="SUPPLY28" gate="G$1" x="381" y="170.18"/>
 <instance part="C4" gate="G$1" x="381" y="175.26" rot="R180"/>
@@ -6977,6 +6986,8 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <pinref part="SUPPLY9" gate="G$1" pin="GND"/>
 <wire x1="60.96" y1="119.38" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
 <junction x="60.96" y="119.38"/>
+<junction x="53.34" y="119.38"/>
+<junction x="66.04" y="119.38"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
@@ -7065,16 +7076,6 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <pinref part="U$6" gate="G$1" pin="VSS"/>
 <pinref part="SUPPLY22" gate="G$1" pin="GND"/>
 <wire x1="251.46" y1="170.18" x2="248.92" y2="170.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$6" gate="G$1" pin="VINA-"/>
-<pinref part="SUPPLY21" gate="G$1" pin="GND"/>
-<wire x1="251.46" y1="175.26" x2="236.22" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$6" gate="G$1" pin="VINB-"/>
-<pinref part="SUPPLY23" gate="G$1" pin="GND"/>
-<wire x1="276.86" y1="172.72" x2="292.1" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$35" gate="G$1" pin="CH1-"/>
@@ -7406,8 +7407,8 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <net name="GLA_S" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="147.32" x2="111.76" y2="144.78" width="0.1524" layer="91"/>
-<label x="111.76" y="144.78" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="106.68" y1="147.32" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
+<label x="106.68" y="144.78" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="G"/>
@@ -7425,8 +7426,8 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <net name="GLB_S" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="142.24" x2="116.84" y2="139.7" width="0.1524" layer="91"/>
-<label x="116.84" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="119.38" y1="139.7" x2="119.38" y2="137.16" width="0.1524" layer="91"/>
+<label x="119.38" y="137.16" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="G"/>
@@ -7437,8 +7438,8 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <net name="GHB_S" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="139.7" x2="119.38" y2="137.16" width="0.1524" layer="91"/>
-<label x="119.38" y="137.16" size="1.016" layer="95" rot="MR0" xref="yes"/>
+<wire x1="124.46" y1="134.62" x2="124.46" y2="132.08" width="0.1524" layer="91"/>
+<label x="124.46" y="132.08" size="1.016" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="G"/>
@@ -7456,22 +7457,8 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 <net name="N$15" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GLA"/>
-<wire x1="139.7" y1="157.48" x2="111.76" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="157.48" x2="106.68" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="GLB"/>
-<wire x1="139.7" y1="152.4" x2="116.84" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="GHB"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="149.86" x2="119.38" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CB_S" class="0">
@@ -7662,13 +7649,8 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="VINA+"/>
-<wire x1="251.46" y1="172.72" x2="248.92" y2="172.72" width="0.1524" layer="91"/>
 <label x="246.38" y="172.72" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$6" gate="G$1" pin="VOUTA"/>
-<wire x1="248.92" y1="172.72" x2="246.38" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="177.8" x2="248.92" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="177.8" x2="248.92" y2="172.72" width="0.1524" layer="91"/>
-<junction x="248.92" y="172.72"/>
+<wire x1="251.46" y1="172.72" x2="246.38" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$35" gate="G$1" pin="CH1+"/>
@@ -7688,18 +7670,53 @@ Source: http://www.fairchildsemi.com/ds/NC/NC7SZ14.pdf</description>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="VINB+"/>
-<wire x1="276.86" y1="170.18" x2="279.4" y2="170.18" width="0.1524" layer="91"/>
 <label x="281.94" y="170.18" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$6" gate="G$1" pin="VOUTB"/>
-<wire x1="279.4" y1="170.18" x2="281.94" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="175.26" x2="279.4" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="175.26" x2="279.4" y2="170.18" width="0.1524" layer="91"/>
-<junction x="279.4" y="170.18"/>
+<wire x1="276.86" y1="170.18" x2="281.94" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$35" gate="G$1" pin="CH2+"/>
 <wire x1="345.44" y1="180.34" x2="347.98" y2="180.34" width="0.1524" layer="91"/>
 <label x="347.98" y="180.34" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GLB"/>
+<wire x1="139.7" y1="152.4" x2="119.38" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="152.4" x2="119.38" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GHB"/>
+<wire x1="139.7" y1="149.86" x2="124.46" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="149.86" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="S_SENSE" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="VINA-"/>
+<wire x1="251.46" y1="175.26" x2="248.92" y2="175.26" width="0.1524" layer="91"/>
+<label x="236.22" y="175.26" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="VOUTA"/>
+<wire x1="248.92" y1="175.26" x2="236.22" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="177.8" x2="248.92" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="177.8" x2="248.92" y2="175.26" width="0.1524" layer="91"/>
+<junction x="248.92" y="175.26"/>
+</segment>
+</net>
+<net name="B_SENSE" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="VINB-"/>
+<wire x1="276.86" y1="172.72" x2="279.4" y2="172.72" width="0.1524" layer="91"/>
+<label x="292.1" y="172.72" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="VOUTB"/>
+<wire x1="279.4" y1="172.72" x2="292.1" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="175.26" x2="279.4" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="175.26" x2="279.4" y2="172.72" width="0.1524" layer="91"/>
+<junction x="279.4" y="172.72"/>
 </segment>
 </net>
 </nets>
