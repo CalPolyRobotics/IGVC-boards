@@ -7063,7 +7063,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="D2" library="heph_custom_comp" deviceset="PMEG6020ETR" device="" value="PMEG6020ETR"/>
 <part name="D3" library="heph_custom_comp" deviceset="PMEG6020ETR" device="" value="PMEG6020ETR"/>
 <part name="D4" library="heph_custom_comp" deviceset="PMEG6020ETR" device="" value="PMEG6020ETR"/>
-<part name="C2" library="eagle-ltspice" deviceset="C" device="C0603" value="22 uF"/>
+<part name="C2" library="eagle-ltspice" deviceset="C" device="C0603" value="47 uF"/>
 <part name="SUPPLY6" library="CP-Symbols" deviceset="GND" device=""/>
 <part name="CART_VOLT_RVP1" library="CP-Symbols" deviceset="PP12V_2" device="" value="PP12V_BAT_RP"/>
 <part name="C5" library="eagle-ltspice" deviceset="C" device="C0603" value="4.7 uF"/>
@@ -7131,6 +7131,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY28" library="CP-Symbols" deviceset="GND" device=""/>
 <part name="C4" library="eagle-ltspice" deviceset="C" device="C0603" value="4.7 uF"/>
 <part name="SUPPLY19" library="CP-Symbols" deviceset="GND" device=""/>
+<part name="CART_VOLT_RVP2" library="CP-Symbols" deviceset="PP12V_2" device="" value="PP12V_BAT_RP"/>
+<part name="C10" library="eagle-ltspice" deviceset="C" device="C0603" value="22 uF"/>
+<part name="SUPPLY21" library="CP-Symbols" deviceset="GND" device=""/>
+<part name="CART_VOLT_RVP3" library="CP-Symbols" deviceset="PP12V_2" device="" value="PP12V_BAT_RP"/>
+<part name="C11" library="eagle-ltspice" deviceset="C" device="C0603" value="22 uF"/>
+<part name="SUPPLY23" library="CP-Symbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7256,6 +7262,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="SUPPLY28" gate="G$1" x="381" y="170.18"/>
 <instance part="C4" gate="G$1" x="381" y="175.26" rot="R180"/>
 <instance part="SUPPLY19" gate="G$1" x="137.16" y="137.16"/>
+<instance part="CART_VOLT_RVP2" gate="G$1" x="15.24" y="86.36"/>
+<instance part="C10" gate="G$1" x="15.24" y="76.2" rot="R180"/>
+<instance part="SUPPLY21" gate="G$1" x="15.24" y="71.12"/>
+<instance part="CART_VOLT_RVP3" gate="G$1" x="25.4" y="81.28"/>
+<instance part="C11" gate="G$1" x="25.4" y="71.12" rot="R180"/>
+<instance part="SUPPLY23" gate="G$1" x="25.4" y="66.04"/>
 </instances>
 <busses>
 </busses>
@@ -7277,9 +7289,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="180.34" y="111.76" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="AHI"/>
-<wire x1="170.18" y1="154.94" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
-<label x="177.8" y="154.94" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="ALO"/>
+<wire x1="170.18" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
+<label x="177.8" y="157.48" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -7434,6 +7446,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="SUPPLY19" gate="G$1" pin="GND"/>
 <wire x1="139.7" y1="137.16" x2="137.16" y2="137.16" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="SUPPLY21" gate="G$1" pin="GND"/>
+<wire x1="15.24" y1="73.66" x2="15.24" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="SUPPLY23" gate="G$1" pin="GND"/>
+<wire x1="25.4" y1="68.58" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
@@ -7499,6 +7521,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="304.8" y="78.74"/>
 <pinref part="ACS1" gate="G$1" pin="IP_P2"/>
 <wire x1="304.8" y1="76.2" x2="307.34" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="CART_VOLT_RVP2" gate="G$1" pin="PP12V_2"/>
+<wire x1="15.24" y1="81.28" x2="15.24" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="CART_VOLT_RVP3" gate="G$1" pin="PP12V_2"/>
+<wire x1="25.4" y1="76.2" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PP5V" class="0">
@@ -7604,14 +7636,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="-43.18" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="BLO"/>
-<wire x1="170.18" y1="162.56" x2="177.8" y2="162.56" width="0.1524" layer="91"/>
-<label x="177.8" y="162.56" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="I"/>
 <wire x1="129.54" y1="111.76" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
 <label x="132.08" y="111.76" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="AHI"/>
+<wire x1="170.18" y1="154.94" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
+<label x="177.8" y="154.94" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MCU_GPIO_S" class="0">
@@ -7965,9 +7997,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="111.76" y="111.76" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="ALO"/>
-<wire x1="177.8" y1="157.48" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
-<label x="177.8" y="157.48" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="BHI"/>
+<wire x1="170.18" y1="160.02" x2="177.8" y2="160.02" width="0.1524" layer="91"/>
+<label x="177.8" y="160.02" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MCU_PWM_S_INV" class="0">
@@ -7977,9 +8009,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="160.02" y="111.76" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="BHI"/>
-<wire x1="170.18" y1="160.02" x2="177.8" y2="160.02" width="0.1524" layer="91"/>
-<label x="177.8" y="160.02" size="1.016" layer="95" xref="yes"/>
+<label x="177.8" y="162.56" size="1.016" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="BLO"/>
+<wire x1="170.18" y1="162.56" x2="177.8" y2="162.56" width="0.1524" layer="91"/>
+<label x="177.8" y="162.56" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="S_BUFF" class="0">
